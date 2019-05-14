@@ -29,10 +29,10 @@ Don’t forget to substitute the ***{path}*** placeholder with the correct path.
 <div class="jlc-wrapper" data-text="{button-label}" data-tx-success="{success-text}" data-tx-error="{error-text}" data-key="{hoster-domain}"></div>
 ```
 Here, you should define your platform and, if needed, can apply texts localization:  
-	- ***{button-label}*** - the main button label (default value is “GET STARTED FOR FREE”)
-	- ***{success-text}*** - text displayed upon success (default value is “CHECK YOUR EMAIL”)
-	- ***{error-text}*** - text displayed upon error (default value is “An error has occurred, please try again later”)
-	- ***{hoster-domain}*** - [domain name of the platform](https://docs.jelastic.com/jelastic-hoster-info), where a customer should be registered
+	- ***{button-label}*** - the main button label (default value is “GET STARTED FOR FREE”)  
+	- ***{success-text}*** - text displayed upon success (default value is “CHECK YOUR EMAIL”)  
+	- ***{error-text}*** - text displayed upon error (default value is “An error has occurred, please try again later”)  
+	- ***{hoster-domain}*** - [domain name of the platform](https://docs.jelastic.com/jelastic-hoster-info), where a customer should be registered  
    
    
 ```Note
