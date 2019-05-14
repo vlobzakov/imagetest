@@ -80,15 +80,15 @@ npm install -d*
 	- ***../jelastic-widget/assets/js/jlcwidget.js*** - adjusts the behavior of the widget
 		- **main variables** section - allows setting the default texts for the widget
 		- apply other changes only in case you know what you are doing
-	- ***../jelastic-widget/assets/img*** - stores default images for the widget. Be aware, uploading new images to the folder won’t apply any changes, you need to adjust the **background-image**: parameter(s) within the ***jlcwidget.scss*** file. For the best performance, we recommend using optimized images in the SVG format (e.g. with the [svgomg](https://jakearchibald.github.io/svgomg/) svgomg service) and add them with the BASE64 technology (e.g. via base64encode.org[base64encode.org](https://www.base64encode.org/)).
+	- ***../jelastic-widget/assets/img*** - stores default images for the widget. Be aware, uploading new images to the folder won’t apply any changes, you need to adjust the **background-image**: parameter(s) within the ***jlcwidget.scss*** file. For the best performance, we recommend using optimized images in the SVG format (e.g. with the [svgomg](https://jakearchibald.github.io/svgomg/) svgomg service) and add them with the BASE64 technology (e.g. via base64encode.org[base64encode.org](https://www.base64encode.org/) ).
 		- **check-icon.svg** - a white tick icon
 		- **loader.svg** - loading (request processing) animation
 		- **mail-black.svg** - a black envelope icon
 		- **mail-grey.svg** - a gray envelope icon
 		- **right-arrow.svg** - a white arrow icon
 
-```Note
-Tip: You can run the ***gulp serve*** command to start a test server with the real-time synchronization of the applied changes for the comfortable preview and troubleshooting.
+```
+Tip: You can run the gulp serve command to start a test server with the real-time synchronization of the applied changes for the comfortable preview and troubleshooting.
 ```
 		
 5. Build the ***jlcwidget.css*** and ***jlcwidget.js*** files for your customized widget, which will be added to the **../jelastic-widget/dist/** folder.
