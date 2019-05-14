@@ -9,26 +9,26 @@ The widget is based on the standard HTML, JS, and CSS (available by default in a
 In the image, you can check the default view of the widget during all of the stages: email address provisioning by a user, request processing, and operation success. The look and texts can be fully customized.   
 
 
-# Integrate Widget
+## Integrate Widget
 
-1. To add signup widget to the website you require jlcwidget.css and jlcwidget.js files, which allows you to customize your widget. However, if you don’t need to change the default styles, they can be downloaded (or linked to via code) directly from the repository:   
-[*https://raw.githubusercontent.com/jelastic/jelastic-widget/master/dist/jlcwidget.css*](https://raw.githubusercontent.com/jelastic/jelastic-widget/master/dist/jlcwidget.css)
-[*https://raw.githubusercontent.com/jelastic/jelastic-widget/master/dist/jlcwidget.js*](https://raw.githubusercontent.com/jelastic/jelastic-widget/master/dist/jlcwidget.js)
+1. To add signup widget to the website you require ***jlcwidget.css*** and ***jlcwidget.js*** files, which allows you to customize your widget. However, if you don’t need to change the default styles, they can be downloaded (or linked to via code) directly from the repository:   
+	- [*https://raw.githubusercontent.com/jelastic/jelastic-widget/master/dist/jlcwidget.css*](https://raw.githubusercontent.com/jelastic/jelastic-widget/master/dist/jlcwidget.css)
+	- [*https://raw.githubusercontent.com/jelastic/jelastic-widget/master/dist/jlcwidget.js*](https://raw.githubusercontent.com/jelastic/jelastic-widget/master/dist/jlcwidget.js)
 
-2. Once you have the files, add the appropriate templates to your webpage code (anywhere within the *header* or *body* sections).
+2. Once you have the files, add the appropriate templates to your webpage code (anywhere within the ***header*** or ***body*** sections).
 
 ```javascript
 <script async src="{path}/jlcwidget.js"></script>
 <link rel="stylesheet" href="{path}/jlcwidget.css" media="none" onload="if(media!='all')media='all'">
 ```
-Don’t forget to substitute the *{path}* placeholder with the correct path.
+Don’t forget to substitute the ***{path}*** placeholder with the correct path.
 
 3. Now, you can include widget anywhere within the page via the next code block:
 
 ```javascript
 <div class="jlc-wrapper" data-text="{button-label}" data-tx-success="{success-text}" data-tx-error="{error-text}" data-key="{hoster-domain}"></div>
 ```
-Here, you should define your platform and, if needed, can apply texts localization:
+Here, you should define your platform and, if needed, can apply texts localization:  
 	- ***{button-label}*** - the main button label (default value is “GET STARTED FOR FREE”)
 	- ***{success-text}*** - text displayed upon success (default value is “CHECK YOUR EMAIL”)
 	- ***{error-text}*** - text displayed upon error (default value is “An error has occurred, please try again later”)
