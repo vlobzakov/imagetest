@@ -1,8 +1,8 @@
 # Signup Widget
 
 <img align="right" width="200" height="300" src="images/get_started.png">
-Following this guide you can create a one-click signup widget for your Jelastic PaaS platform and easily add it to any website.   
-
+Following this guide you can create a one-click signup widget for your Jelastic PaaS platform and easily add it to any website.      
+      
 The widget is based on the standard HTML, JS, and CSS (available by default in all modern browsers), so it does not require any additional dependencies. Moreover, to avoid impacting the performance (i.e. page load speed), the initialization of the widget is performed in the background.   
 
 In the image, you can check the default view of the widget during all of the stages: email address provisioning by a user, request processing, and operation success. The look and texts can be fully customized.   
