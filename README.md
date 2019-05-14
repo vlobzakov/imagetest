@@ -16,15 +16,17 @@ In the image, you can check the default view of the widget during all of the sta
 
 2. Once you have the files, add the appropriate templates to your webpage code (anywhere within the *header* or *body* sections).
 
-*'<script async src="{path}/jlcwidget.js"></script>
-<link rel="stylesheet" href="{path}/jlcwidget.css" media="none" onload="if(media!='all')media='all'">'*
-
+```javascript
+<script async src="{path}/jlcwidget.js"></script>
+<link rel="stylesheet" href="{path}/jlcwidget.css" media="none" onload="if(media!='all')media='all'">
+```
 Don’t forget to substitute the *{path}* placeholder with the correct path.
 
 3. Now, you can include widget anywhere within the page via the next code block:
 
-*'<div class="jlc-wrapper" data-text="{button-label}" data-tx-success="{success-text}" data-tx-error="{error-text}" data-key="{hoster-domain}"></div>'*
-
+```javascript
+<div class="jlc-wrapper" data-text="{button-label}" data-tx-success="{success-text}" data-tx-error="{error-text}" data-key="{hoster-domain}"></div>
+```
 Here, you should define your platform and, if needed, can apply texts localization:
 	- ***{button-label}*** - the main button label (default value is “GET STARTED FOR FREE”)
 	- ***{success-text}*** - text displayed upon success (default value is “CHECK YOUR EMAIL”)
@@ -33,7 +35,7 @@ Here, you should define your platform and, if needed, can apply texts localizati
    
    
 ```
-**Tip**: The default texts (localization) can be redefined via widget customization, described in the section below.
+<strong>Tip</strong>: The default texts (localization) can be redefined via widget customization, described in the section below.
 ```
    
 That’s it! The signup widget is already added to your website.
@@ -85,7 +87,7 @@ npm install -d*
 		- **right-arrow.svg** - a white arrow icon
 
 ```
-**Tip**: You can run the ***gulp serve*** command to start a test server with the real-time synchronization of the applied changes for the comfortable preview and troubleshooting.
+__Tip__: You can run the ***gulp serve*** command to start a test server with the real-time synchronization of the applied changes for the comfortable preview and troubleshooting.
 ```
 		
 5. Build the ***jlcwidget.css*** and ***jlcwidget.js*** files for your customized widget, which will be added to the **../jelastic-widget/dist/** folder.
@@ -94,6 +96,6 @@ npm install -d*
 
 <p align="left"> 
 <img src="images/gulp.png" width="700">
-</p>		
+</p>
    
    Now, you can use these new files to place the customized widget on your website as described in the **Integrate Widget** block.
