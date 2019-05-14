@@ -34,7 +34,7 @@ Here, you should define your platform and, if needed, can apply texts localizati
 	- ***{hoster-domain}*** - [domain name of the platform](https://docs.jelastic.com/jelastic-hoster-info), where a customer should be registered
    
    
-```Tip
+```Note
 Tip: The default texts (localization) can be redefined via widget customization, described in the section below.
 ```
    
@@ -86,7 +86,7 @@ npm install -d*
 		- **mail-grey.svg** - a gray envelope icon
 		- **right-arrow.svg** - a white arrow icon
 
-```Tip
+```Note
 Tip: You can run the ***gulp serve*** command to start a test server with the real-time synchronization of the applied changes for the comfortable preview and troubleshooting.
 ```
 		
